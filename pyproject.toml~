@@ -1,0 +1,23 @@
+[project]
+name = "foggysounds"
+version = "0.1.0"
+description = "A Django database backend for the Erlang Mnesia database"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name="Eddy", email="eddyraz.fl@proton.me" }
+]
+keywords = ["django", "mnesia", "erlang", "database-backend"]
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/MIRALIASOFTWARE/foggysounds"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
